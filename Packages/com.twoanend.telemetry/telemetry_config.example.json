@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "autoStart": true,
+    "askConsent": true,
+    "askEverySession": true,
+    "editorAutoConsent": true,
+    "watermark": true,
+    "studyName": "2ANEND playtest",
+    "perfInterval": 5.0,
+    "hitchMs": 50.0,
+    "positionInterval": 1.0,
+    "pathBatch": 10,
+    "overlayKey": "F3",
+    "supabaseUrl": "https://YOUR-PROJECT.supabase.co",
+    "supabaseAnonKey": "YOUR-ANON-KEY",
+    "supabaseTable": "telemetry_events",
+    "supabaseFunction": "ingest_telemetry",
+    "uploadInterval": 10.0,
+    "uploadFromEditor": false
+}

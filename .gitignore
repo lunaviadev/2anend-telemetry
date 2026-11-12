@@ -1,0 +1,26 @@
+# Unity (this repo opens as a small Unity project for the demo)
+/Library/
+/Temp/
+/Logs/
+/obj/
+/Build/
+/Builds/
+/UserSettings/
+/MemoryCaptures/
+/ProjectSettings/*
+!/ProjectSettings/ProjectVersion.txt
+*.csproj
+*.sln
+.vs/
+.idea/
+
+# the real config holds the Supabase key
+/Assets/Resources/telemetry_config.json
+/Assets/Resources/telemetry_config.json.meta
+
+# analysis output and local data
+/Tools/analysis/report/
+/Tools/analysis/sample_logs/
+/Tools/analysis/logs/
+__pycache__/
+.venv/

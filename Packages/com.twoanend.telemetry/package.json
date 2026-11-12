@@ -1,0 +1,18 @@
+{
+  "name": "com.twoanend.telemetry",
+  "version": "1.0.0",
+  "displayName": "2ANEND Telemetry",
+  "description": "Consent-gated playtest telemetry for Unity: session headers, frame-time / CPU / GPU / memory benchmarking with hitch detection, gameplay events, player paths, a JSONL logger with an offline-queued Supabase uploader, a live F3 overlay and a -benchmark mode. Game-agnostic: games feed it through a small bridge.",
+  "unity": "6000.0",
+  "author": {
+    "name": "lunaviadev",
+    "url": "https://github.com/lunaviadev"
+  },
+  "dependencies": {
+    "com.unity.ugui": "2.0.0",
+    "com.unity.modules.imgui": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.modules.unitywebrequest": "1.0.0"
+  },
+  "keywords": ["telemetry", "analytics", "playtest", "qa", "benchmark", "supabase"]
+}
